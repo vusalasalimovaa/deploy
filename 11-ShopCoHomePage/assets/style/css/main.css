@@ -1,0 +1,466 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1240px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url(/assets/fonts/Satoshi-Regular.otf);
+}
+@font-face {
+  font-family: "Integral";
+  src: url(/assets/fonts/Fontspring-DEMO-integralcf-regular.otf);
+}
+#navbar {
+  width: 100%;
+  background-color: #000000;
+}
+#navbar .container {
+  background-color: #000000;
+}
+#navbar .container .smalltxt {
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar .container .smalltxt .center {
+  margin: auto;
+}
+#navbar .container .smalltxt p {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+#navbar .container .smalltxt p a {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+#mainnav {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+#mainnav .container {
+  background-color: #FFFFFF;
+}
+#mainnav .container .mainheader {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#mainnav .container .mainheader .hamburger {
+  display: none;
+}
+#mainnav .container .mainheader h1 {
+  font-family: "Integral";
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+#mainnav .container .mainheader ul {
+  padding: 0px;
+}
+#mainnav .container .mainheader ul a {
+  text-decoration: none;
+  display: flex;
+  gap: 25px;
+}
+#mainnav .container .mainheader ul a li {
+  list-style: none;
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+#mainnav .container .mainheader ul a .withicon {
+  display: flex;
+  gap: 7px;
+}
+#mainnav .container .mainheader .searchbar {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  width: 577px;
+  padding: 12px 16px;
+  border-radius: 62px;
+  background-color: #F0F0F0;
+}
+#mainnav .container .mainheader .searchbar input {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Satoshi";
+  color: #000000;
+  opacity: 40%;
+  margin-left: 10px;
+}
+#mainnav .container .mainheader .icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+#mainnav .container .mainheader .icons .lupa {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  #navbar .container .smalltxt {
+    height: 34px;
+  }
+  #navbar .container .smalltxt .center {
+    width: 320px;
+  }
+  #navbar .container .smalltxt .center p {
+    font-size: 12px;
+  }
+  #navbar .container .smalltxt .firsticon {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #mainnav .container .mainheader .respon {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  #mainnav .container .mainheader .respon .hamburger {
+    display: block;
+    margin-top: 10px;
+  }
+  #mainnav .container .mainheader ul {
+    display: none;
+  }
+  #mainnav .container .mainheader .searchbar {
+    display: none;
+  }
+  #mainnav .container .mainheader .icons .lupa {
+    display: block;
+  }
+}
+#mainsection {
+  width: 100%;
+  background-color: #F2F0F1;
+}
+#mainsection .container .items {
+  height: 663px;
+  width: 1440px;
+  background-image: url(/assets/images/images/Rectangle\ 2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#mainsection .container .items h1 {
+  width: 400px;
+  font-family: "Integral";
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  padding-top: 103px;
+}
+#mainsection .container .items p {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 60%;
+  width: 545px;
+  padding: 32px 0px;
+}
+#mainsection .container .items button {
+  width: 210px;
+  height: 52px;
+  border-radius: 62px;
+  border: none;
+  background: #000000;
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+#mainsection .container .items .bigone {
+  position: absolute;
+  right: 81px;
+  top: 86px;
+}
+#mainsection .container .items .smallone {
+  position: absolute;
+  right: 634px;
+  top: 297px;
+}
+#mainsection .container .items .allnums {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 32px;
+}
+#mainsection .container .items .allnums h2 {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+}
+#mainsection .container .items .allnums p {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  opacity: 60%;
+  padding-top: 3px;
+}
+#mainsection .container .items .allnums .all {
+  margin-top: 48px;
+}
+#mainsection .container .items .allnums .firstnum {
+  border-right: 1px solid #AAAAAA;
+}
+#mainsection .container .items .allnums .secondnum {
+  border-right: 1px solid #AAAAAA;
+}
+
+#clothbrand {
+  width: 100%;
+  background-color: #000000;
+}
+#clothbrand .container {
+  background-color: #000000;
+}
+#clothbrand .container .brands {
+  height: 122px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#newArrivals {
+  width: 100%;
+}
+#newArrivals .container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1450980392);
+}
+#newArrivals .container h1 {
+  text-align: center;
+  font-family: "Integral";
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 72px;
+  margin-bottom: 55px;
+}
+#newArrivals .container .newitemsgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#newArrivals .container .newitemsgrid .newitems .tshirt {
+  border-radius: 20px;
+}
+#newArrivals .container .newitemsgrid .newitems h3 {
+  padding-top: 16px;
+  padding-bottom: 8px;
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+#newArrivals .container .newitemsgrid .newitems .starsntxt {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+#newArrivals .container .newitemsgrid .newitems .starsntxt .first {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  padding-left: 13px;
+}
+#newArrivals .container .newitemsgrid .newitems .starsntxt .second {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  opacity: 60%;
+}
+#newArrivals .container .newitemsgrid .newitems h2 {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+#newArrivals .container .newitemsgrid .newitems .prices {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#newArrivals .container .newitemsgrid .newitems .prices .maxprice {
+  color: #000000;
+  opacity: 40%;
+}
+#newArrivals .container .newitemsgrid .newitems .prices p {
+  width: 58px;
+  height: 28px;
+  border-radius: 62px;
+  background-color: rgba(255, 51, 51, 0.137254902);
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 12px;
+  color: #FF3333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#newArrivals .container .btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+  padding-bottom: 64px;
+}
+#newArrivals .container .btn button {
+  width: 218px;
+  height: 52px;
+  color: #000000;
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 62px;
+  border: none;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1764705882);
+}
+
+#topSelling {
+  width: 100%;
+}
+#topSelling .container h1 {
+  text-align: center;
+  font-family: "Integral";
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 72px;
+  margin-bottom: 55px;
+}
+#topSelling .container .newitemsgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#topSelling .container .newitemsgrid .newitems .tshirt {
+  border-radius: 20px;
+}
+#topSelling .container .newitemsgrid .newitems h3 {
+  padding-top: 16px;
+  padding-bottom: 8px;
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+#topSelling .container .newitemsgrid .newitems .starsntxt {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+#topSelling .container .newitemsgrid .newitems .starsntxt .first {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  padding-left: 13px;
+}
+#topSelling .container .newitemsgrid .newitems .starsntxt .second {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  opacity: 60%;
+}
+#topSelling .container .newitemsgrid .newitems h2 {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+#topSelling .container .newitemsgrid .newitems .prices {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#topSelling .container .newitemsgrid .newitems .prices .maxprice {
+  color: #000000;
+  opacity: 40%;
+}
+#topSelling .container .newitemsgrid .newitems .prices p {
+  width: 58px;
+  height: 28px;
+  border-radius: 62px;
+  background-color: rgba(255, 51, 51, 0.137254902);
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 12px;
+  color: #FF3333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#topSelling .container .btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+  padding-bottom: 80px;
+}
+#topSelling .container .btn button {
+  width: 218px;
+  height: 52px;
+  color: #000000;
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 62px;
+  border: none;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1764705882);
+}
+
+#browse {
+  width: 100%;
+}
+#browse .container {
+  height: 866px;
+  background-color: #F0F0F0;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#browse .container h1 {
+  font-family: "Integral";
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000;
+  text-align: center;
+  padding-top: 70px;
+}
+#browse .container .firstrow {
+  display: flex;
+  gap: 20px;
+  padding-top: 64px;
+  padding-bottom: 20px;
+}
+#browse .container .secondrow {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=main.css.map */

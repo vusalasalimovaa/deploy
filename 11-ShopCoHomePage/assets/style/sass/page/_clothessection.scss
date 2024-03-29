@@ -1,0 +1,105 @@
+#mainsection{
+    width: 100%;
+    background-color: 
+    #F2F0F1;
+   
+
+    .container{
+        
+
+        .items{
+            height: 663px;
+            width: 1440px;
+            
+            background-image: url(/assets/images/images/Rectangle\ 2.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+
+            h1{
+                width: 400px;
+                font-family: "Integral";
+                font-weight: bolder;
+                font-size: 40px;
+                line-height: 40px;
+                color: #000000;
+                padding-top: 103px;
+               
+            }
+
+            p{
+                font-family: "Satoshi";
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                color: 
+                #000000;
+                opacity: 60%;
+                width: 545px;
+                padding: 32px 0px;
+            }
+
+            button{
+                width: 210px;
+                height: 52px;
+                border-radius: 62px;
+                border: none;
+                background: #000000;
+                font-family: "Satoshi";
+                font-weight: 500;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+
+            .bigone{
+                position: absolute;
+                right: 81px;
+                top: 86px;
+            }
+
+            .smallone{
+                position: absolute;
+                right: 634px;
+                top: 297px;
+            }
+
+            .allnums{
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                gap: 32px;
+                
+    
+                h2{
+                    font-family: "Satoshi";
+                    font-weight: 700;
+                    font-size: 40px;
+                    color: #000000;
+                    
+                }
+    
+                p{
+                    font-family: "Satoshi";
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #000000;
+                    opacity: 60%;
+                    padding-top: 3px;
+                }
+    
+                .all{
+                    margin-top: 48px;
+                    
+                }
+
+                .firstnum{
+                    border-right: 1px solid #AAAAAA;
+                }
+
+                .secondnum{
+                    border-right: 1px solid #AAAAAA;
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+#clothbrand{
+    width: 100%;
+    background-color: #000000;
+
+    .container{
+        background-color: #000000;
+        .brands{
+            height: 122px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

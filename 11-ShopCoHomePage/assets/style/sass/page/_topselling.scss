@@ -1,0 +1,116 @@
+#topSelling {
+    width: 100%;
+
+    .container{
+        
+        h1{
+            text-align: center;
+            font-family: "Integral";
+            font-weight: 700;
+            font-size: 48px;
+            margin-top: 72px;
+            margin-bottom: 55px;
+        }
+
+        .newitemsgrid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            
+            .newitems{
+
+                .tshirt{
+                    border-radius: 20px;
+                }
+
+                h3{
+                    padding-top: 16px;
+                    padding-bottom: 8px;
+                    font-family: "Satoshi";
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: #000000;
+                }
+
+                .starsntxt{
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 8px;
+
+                    .first{
+                        font-family: "Satoshi";
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #000000;
+                        padding-left: 13px;
+                    }
+
+                    .second{
+                        font-family: "Satoshi";
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #000000;
+                        opacity: 60%;
+                        
+                        
+                    }
+                }
+
+                h2{
+                    font-family: "Satoshi";
+                    font-weight: 700;
+                    font-size: 24px;
+                    color: #000000;
+                }
+
+                .prices{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .maxprice{
+                        color: #000000;
+                        opacity: 40%;
+                    }
+
+                    p{
+                        width: 58px;
+                        height: 28px;
+                        border-radius: 62px;
+                        background-color: 
+                        #ff333323;
+                        font-family: "Satoshi";
+                        font-weight: 500;
+                        font-size: 12px;
+                        color: #FF3333;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                
+            }
+        }
+
+        .btn{
+            display: flex;
+            justify-content: center;
+            padding-top: 36px;
+            padding-bottom: 80px;
+
+            button{
+                width: 218px;
+                height: 52px;
+                color: #000000;
+                font-family: "Satoshi";
+                font-weight: 500;
+                font-size: 16px;
+                border-radius: 62px;
+                border: none;
+                background: #FFFFFF;
+                border: 1px solid #0000002d;
+            }
+
+        }
+    }
+}
